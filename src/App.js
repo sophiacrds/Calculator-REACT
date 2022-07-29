@@ -60,6 +60,9 @@ export const Box2 = styled.div`
                     inset 2px 2px 2px rgba(208, 202, 190, .075),
                     inset 2px 2px 4px rgba(0, 0, 0, .10);
     }
+    a{
+        color: black
+    }
     .row:last-child button:first-child{
         width: calc(2*var(--btnW));
     }
