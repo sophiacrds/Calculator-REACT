@@ -54,6 +54,7 @@ export const Box2 = styled.div`
         border: none;
         cursor: pointer;
         background: var(--main-color);
+        color: black;
         box-shadow: inset -2px -2px 6px rgba(208, 202, 190, .8),
                     inset -2px -2px 4px rgba(255, 255, 255, .3),
                     inset 2px 2px 2px rgba(208, 202, 190, .075),
