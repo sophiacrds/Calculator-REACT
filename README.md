@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+<img src="https://i.ibb.co/QpLTKSz/badge-M2-T2.png" alt="Badge Vai Na Web T2.1" width="150" align="right">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Calculadora simples em React
 
-## Available Scripts
+<i>Projeto desenvolvido como desafio referente ao módulo 2 do curso Vai na Web de desenvolvimento front-end. </i><br><br>
+<div align="center">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sophiacrds/Calculator-REACT?color=khaki">
+    <img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/sophiacrds/Calculator-REACT?color=white">
+    <img alt="GitHub Total lines" src="https://img.shields.io/tokei/lines/github/sophiacrds/Calculator-REACT?color=white">
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/sophiacrds/Calculator-REACT?color=white">
 
-In the project directory, you can run:
+</div><br>
 
-### `npm start`
+Nesse projeto, foi desenvolvida uma calculadora simplificada com `react class component`. Para estilização, iniciei meu aprendizado sobre `styled-components`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Algumas funcionalidades e validações lógicas presentes:
+- Não adicionar mais de um `0` sozinho no display;
+- Não adicionar operador matemático quando houver apenas `0` no display;
+- Não adicionar operador matemático quando não houver valor numérico antecedente;
+- Não adicionar operador matemático quando 
+- Possibilidade de continuar as operações matemáticas com o valor exibido como resultado final (`=`);
+- Após resultado final (`=`), novo número pressionado reiniciará o campo de cálculo ao invés de concatenar com o valor exibido;
+- Se o resultado final (`=`) for uma dízima periódica ou contiver mais de duas casas decimais o valor exibido no display ficará restrito a quatro cadas decimais;
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Aperfeiçoamentos futuros:
+- [ ] Não adicionar operadores matemáticos em sequência;
+- [ ] Não adicionar operadores matemáticos após `.` em valores decimais;
+- [ ] Possibilidade de selecionar os valores através do teclado;
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## PREVIEW
 
-### `npm run eject`
+<div align="center">
+  <img src="./src/assets/demo.gif">
+</div>
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+    <a href="https://www.linkedin.com/in/sophia-leão-733880101/" alt="Linkedin"><img src="https://img.shields.io/badge/-Sophia Leão-white?style=flat&logo=Linkedin&logoColor=black"></a>
+</div>
