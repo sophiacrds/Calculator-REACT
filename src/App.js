@@ -1,5 +1,14 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #000
+    }
+`;
 
 export const Box2 = styled.div`
 	--btnW: 60px;
